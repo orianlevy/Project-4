@@ -1,0 +1,39 @@
+/* Global Layout Set-up */
+
+* {
+    box-sizing: border-box;
+}
+
+.photo_gallery {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+img {
+
+	margin: 40px 60px 0 0px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .1);
+  	transition: box-shadow .3s;
+}
+
+img:hover  {
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, .3);
+}
+
+.header {
+
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+
+.search-button {
+
+    margin: 30px auto;
+    width: 460px;
+     display: block;
+}
+
+ul
+{
+    list-style-type: none;
+}
