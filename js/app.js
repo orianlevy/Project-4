@@ -8,6 +8,7 @@
         	}); 
 
 
+
             // Input filter keyup listener
  			$('input').keyup(function(event) {
     		// Hide anchors with titles that don't contain the input string
