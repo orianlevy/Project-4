@@ -5,15 +5,14 @@
 }
 
 .photo_gallery {
-
 	margin: 0 auto;
+	margin-top: 145px;
 	font-size: 0;
 	max-width: 980px;
-
+	margin-bottom: 120px;
 }
 
 img {
-	
 	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .1);
   	transition: box-shadow .3s;
 }
@@ -22,6 +21,13 @@ img:hover  {
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, .3);
 }
 
+.header-container {
+    width: 100%;
+	background: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
 
 #lightgallery a {
   margin: 40px 60px 0 0px;
@@ -35,7 +41,6 @@ img:hover  {
 }
 
 .header {
-
 	text-align: center;
 	font-family: 'Indie Flower', cursive;
 }
@@ -58,8 +63,6 @@ img:hover  {
   box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   border: 1px solid rgba(81, 203, 238, 1);
 }
-
-
 
 
 @media screen and (min-width: 700px) {
